@@ -1,9 +1,9 @@
 <template>
   <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
   <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
-  <navigation-component></navigation-component>
+  <div class="container mx-auto p-4">
 
-  <div class="container p-5">
+    <navigation-component></navigation-component>
     <main-component></main-component>
   </div>
 </template>
@@ -71,8 +71,6 @@ export default {
   font-family: 'Calibre';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
 }
 </style>
