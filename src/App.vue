@@ -1,10 +1,11 @@
 <template>
   <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
   <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
-  <div class="container mx-auto p-4">
+  <div class="container mx-auto p-6">
 
     <navigation-component></navigation-component>
     <main-component></main-component>
+
   </div>
 </template>
 
@@ -24,53 +25,15 @@ export default {
 </script>
 
 <style>
-@font-face {
-    font-family: 'Calibre';
-    src: url('fonts/CalibreBlack.otf');
-    font-weight: bolder;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Calibre';
-    src: url('fonts/CalibreBold.otf');
-    font-weight: bold;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Calibre';
-    src: url('fonts/CalibreMedium.otf');
-    font-weight: 500;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Calibre';
-    src: url('fonts/CalibreMediumItalic.otf');
-    font-weight: 500;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'Calibre';
-    src: url('fonts/CalibreRegular.otf');
-    font-weight: 400;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Calibre';
-    src: url('fonts/CalibreRegularItalic.otf');
-    font-weight: 400;
-    font-style: italic;
-}
 
 #app {
   /* font-family: Avenir, Helvetica, Arial, sans-serif; */
-  font-family: 'Calibre';
+  font-family: 'Quicksand', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;
+}
+h1,h2,h3{
+  font-family: 'Inter', sans-serif;
 }
 </style>
